@@ -1,6 +1,6 @@
-from cpu import monitorar_cpu
-from memory import monitorar_memoria
-from disk import monitorar_disco
+from modulos.cpu import monitorar_cpu
+from modulos.memory import monitorar_memoria
+from modulos.disk import monitorar_disco
 import asyncio
 
 nucleos, threads = asyncio.run(monitorar_cpu())
